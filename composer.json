@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-translatable",
+    "name": "zoomyboy/laravel-translatable",
     "description": "A trait to make an Eloquent model hold translations",
     "keywords": [
         "spatie",
@@ -10,7 +10,7 @@
         "i8n",
         "multilingual"
     ],
-    "homepage": "https://github.com/spatie/laravel-translatable",
+    "homepage": "https://github.com/zoomyboy/laravel-translatable",
     "license": "MIT",
     "authors": [
         {
