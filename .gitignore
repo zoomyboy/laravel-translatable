@@ -2,3 +2,6 @@ build
 composer.lock
 docs
 vendor
+*.swo
+*.swp
+*.swm

@@ -52,6 +52,23 @@ Next up, the service provider must be registered:
 
 ];
 ```
+Install the Middleware to your api and web middleware Group:
+```
+'api' => [
+    'throttle:60,1',
+	'bindings',
+	\Zoomyboy\Translatable\SetUserLanguageMiddleware::class,
+],
+'web' => [
+    ...
+    \Illuminate\Session\Middleware\StartSession::class,
+	\Zoomyboy\Translatable\SetUserLanguageMiddleware::class,
+    ...
+],
+```
+Make sure that you add the Middleware to your web array after the StartSession Middleware to grab the current user.
+
+
 
 If you want to change add fallback_locale, you must publish the config file:
 ```
