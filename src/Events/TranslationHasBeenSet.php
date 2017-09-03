@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Translatable\Events;
+namespace Zoomyboy\Translatable\Events;
 
 use Illuminate\Database\Eloquent\Model;
 
 class TranslationHasBeenSet
 {
-    /** @var \Spatie\Translatable\Translatable */
+    /** @var \Zoomyboy\Translatable\Translatable */
     public $model;
 
     /** @var string */

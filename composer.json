@@ -1,8 +1,8 @@
 {
-    "name": "spatie/laravel-translatable",
+    "name": "zoomyboy/laravel-translatable",
     "description": "A trait to make an Eloquent model hold translations",
     "keywords": [
-        "spatie",
+        "zoomyboy",
         "laravel-translatable",
         "translate",
         "eloquent",
@@ -10,9 +10,14 @@
         "i8n",
         "multilingual"
     ],
-    "homepage": "https://github.com/spatie/laravel-translatable",
+    "homepage": "https://github.com/zoomyboy/laravel-translatable",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Philipp Lang",
+            "email": "philipp@aweos.de",
+            "role": "Developer"
+        },
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
@@ -43,12 +48,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Translatable\\": "src"
+            "Zoomyboy\\Translatable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Translatable\\Test\\": "tests"
+            "Zoomyboy\\Translatable\\Test\\": "tests"
         }
     },
     "scripts": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Translatable;
+namespace Zoomyboy\Translatable;
 
 use Illuminate\Support\ServiceProvider;
 

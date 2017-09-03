@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Translatable;
+namespace Zoomyboy\Translatable;
 
 use Illuminate\Support\Str;
-use Spatie\Translatable\Events\TranslationHasBeenSet;
-use Spatie\Translatable\Exceptions\AttributeIsNotTranslatable;
+use Zoomyboy\Translatable\Events\TranslationHasBeenSet;
+use Zoomyboy\Translatable\Exceptions\AttributeIsNotTranslatable;
 
 trait HasTranslations
 {
