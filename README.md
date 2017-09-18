@@ -68,8 +68,16 @@ Install the Middleware to your api and web middleware Group:
 ```
 Make sure that you add the Middleware to your web array after the StartSession Middleware to grab the current user.
 
+### Set language via Header
+You can set a language header 'Accept-Language' that has the format 'set:LG', eg:
+```
+Accept-Language: set:gb
+```
+This will take precendence over the language of the logged in user and also allows you to request a specific language as a guest.
+Since normal browser doesnt use that format, this can be used to request a language for a user-Request, e.g. an api call.
 
-
+---
+  
 If you want to change add fallback_locale, you must publish the config file:
 ```
 php artisan vendor:publish --provider="Spatie\Translatable\TranslatableServiceProvider"
